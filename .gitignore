@@ -1,0 +1,48 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2019
+.vs/
+/src/payment.Web/app
+/src/payment.Web/.config/dotnet-tools.json
+/src/payment.Web/Properties/PublishProfiles
+/src/payment.Web/payment.Services.xml
+/src/payment.Web/payment.Repository.xml
+/src/payment.Web/payment.Pay.Core.xml
+/src/payment.Web/payment.Pay.Core.WeChatPay.xml
+/src/payment.Web/payment.Model.xml
+/src/payment.Web/log
+/src/payment.Web/Dockerfile.original
+/src/payment.Web/UploadFile/Image
